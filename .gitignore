@@ -1,0 +1,20 @@
+# Ignore raw data and large files
+data/raw/
+data/processed/
+
+# Ignore pickled models and intermediate files
+*.pkl
+*.pickle
+
+# Ignore CSVs (optional but recommended for this project)
+*.csv
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment
+.venv/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
